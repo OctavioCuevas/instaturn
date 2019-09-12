@@ -18,8 +18,9 @@ function login() {
       <input type="checkbox" value="remember-me"></input>
       <label className="ml-2" >Remember Me</label>
   </div>
-  <Link to="/Test/"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></Link>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <br/>
+  <Link to="/register/"><button class="btn btn-lg btn-primary btn-block" type="submit">Register</button></Link>
   <p class="mt-5 mb-3 text-muted">© 2017-2019</p>
 </form>
 
